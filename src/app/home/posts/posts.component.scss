@@ -1,0 +1,30 @@
+.posts-container {
+  // text-align: center;
+  margin-left: 40%;
+  margin-top: 3rem;
+  font-family: sans-serif;
+  &__title {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  &__link {
+    text-decoration: none;
+    color: black;
+    font-size: 1.3rem;
+
+    &--blue {
+      color: blue;
+      text-decoration: none;
+    }
+  }
+
+  &__link:hover {
+    color: blue;
+  }
+
+  &__text {
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+  }
+}

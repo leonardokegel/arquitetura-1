@@ -1,0 +1,8 @@
+<section class="posts-container">
+  <h3 class="posts-container__title">Últimas do blog</h3>
+  <div style="max-width: 450px;" *ngFor="let post of posts">
+    <a class="posts-container__link" href="#">{{ post.link }}</a>
+    <p class="posts-container__text">{{ post.description }}</p>
+  </div>
+  <a class="posts-container__link--blue" href="#">Ver tudo</a>
+</section>

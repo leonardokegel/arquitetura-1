@@ -1,0 +1,47 @@
+.header {
+  background: rgb(96, 96, 245);
+  font-family: sans-serif;
+  &-menu {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    padding: 2rem;
+
+    &__link {
+      text-decoration: none;
+      color: white;
+    }
+  }
+
+  &-about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3.125rem;
+    gap: 5rem;
+
+    &__img {
+      width: 9.375rem;
+      height: 9.375rem;
+      border-radius: 50%;
+    }
+
+    &__title {
+        font-size: 3rem;
+        color: white;
+        font-weight: bold;
+    }
+
+    &__text {
+        color: white;
+        max-width: 500px;
+        margin-top: 1rem;
+        font-size: 1rem;
+    }
+  }
+}
+
+.about_container {
+    display: flex;
+    flex-direction: column;
+}
